@@ -3,7 +3,7 @@ ARG BASE_IMAGE_VERSION=8.3.2011
 
 FROM "$BASE_IMAGE_DISTRO":"$BASE_IMAGE_VERSION" AS intel_oneapi_tools
 
-ARG CMAKE_URL=https://github.com/Kitware/CMake/releases/download/v3.20.2/cmake-3.20.2-linux-x86_64.sh
+ARG CMAKE_URL=https://github.com/Kitware/CMake/releases/download/v3.20.3/cmake-3.20.3-linux-x86_64.sh
 ARG REPO_URL=https://yum.repos.intel.com/oneapi
 ARG DISABLE_CERT_CHECK
 
